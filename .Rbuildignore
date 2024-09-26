@@ -1,0 +1,4 @@
+^renv$
+^renv\.lock$
+^nice888setup\.Rproj$
+^\.Rproj\.user$
