@@ -18,14 +18,16 @@
 # )
 
 # renv::hydrate(
-#   "codegrip",
-#   "mischelper",
-#   "viewxl",
-#   "jadd",
-#   "imageclipr",
-#   "docthis",
-#   "hippie",
-#   "datapasta"
+#   c(
+#     "codegrip",
+#     "mischelper",
+#     "viewxl",
+#     "jadd",
+#     "imageclipr",
+#     "docthis",
+#     "hippie",
+#     "datapasta"
+#   )
 # )
 
 # # devtools::install_github("lionel-/codegrip")
@@ -36,5 +38,5 @@
 # # devtools::install_github("Timag/imageclipr")
 # # devtools::install_github("mdlincoln/docthis")
 # # install.packages(
-# #    "datapasta", 
+# #    "datapasta",
 # #    repos = c(mm = "https://milesmcbain.r-universe.dev", getOption("repos")))
