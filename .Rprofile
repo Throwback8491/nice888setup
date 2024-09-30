@@ -1,4 +1,4 @@
 source("renv/activate.R")
-if(interactive()){
+if (interactive()) {
   suppressMessages(require(devtools))
 }
